@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFANDEGA</title>
+    <style>
+     body{
+         background-color: rgb(127, 182, 255);
+         color: rgb(11, 11, 83);
+         font: 20 pt Arial;
+     }
+    input{ 
+        font: normal 12pt Arial;
+        color: rgb(2, 56, 2)
+        width: 100px;
+    }
+    h1{
+        Color: rgb(226, 250, 7);
+    }
+    input.button{
+        color: gray;
+        font: 20pt Arial;
+    }
+    </style>
+</head>
+<body>
+    <h1> Sistema de Imigração</h1>
+    Digite a sua nacionalidade: <input type="string" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+        var txtv = window.document.querySelector('input#txtnac')
+        var res = window.document.querySelector('div#res')
+        var nac = txtv.value)
+        res.innerHTML=`<p> Sua nacionalidade atual é <strong>${nac} </strong> </p>`
+        if(nac <> 'Brasileiro' ){
+            res.innerHTML+=`<p>Voce é estrangeiro <strong>Respeite as leis locais</strong></p>`
+        }
+        res.innerHTML+=`<p>Bem vindo ao Brazil.</p>`
+        }
+    </script>
+</body>
+</html>
