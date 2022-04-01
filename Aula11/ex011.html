@@ -13,7 +13,7 @@
      }
     input{ 
         font: normal 12pt Arial;
-        color: rgb(2, 56, 2)
+        color: rgb(2, 56, 2);
         width: 100px;
     }
     h1{
@@ -36,9 +36,9 @@
         function calcular() {
         var txtv = window.document.querySelector('input#txtnac')
         var res = window.document.querySelector('div#res')
-        var nac = txtv.value)
+        var nac = txtv.value
         res.innerHTML=`<p> Sua nacionalidade atual é <strong>${nac} </strong> </p>`
-        if(nac <> 'Brasileiro' ){
+        if(nac!='Brasileiro' ){
             res.innerHTML+=`<p>Voce é estrangeiro <strong>Respeite as leis locais</strong></p>`
         }
         res.innerHTML+=`<p>Bem vindo ao Brazil.</p>`
