@@ -14,6 +14,10 @@ section{
     margin: auto;
     box-shadow: 3px 3px 10px rgb(58, 57, 0.363);
 }
+
+select#Selnum{
+    width: 180px;
+}
 footer{
     color: white;
     text-align: center;
