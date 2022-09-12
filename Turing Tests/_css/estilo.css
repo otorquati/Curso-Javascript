@@ -3,6 +3,7 @@
     *{
       margin: 0px;
       padding: 0px;
+      font-family:Arial, Helvetica, sans-serif;
     }
     body{
       background-color: lightgoldenrodyellow;
@@ -36,7 +37,7 @@
       margin: 2px 20px 5px 40px;
     }
     section>div#analise{
-      background-color: rgb(189, 120, 35);
+      background-color: rgb(123, 173, 207);
       color: black;
       width: 400px;
       height: 200px;
