@@ -6,7 +6,7 @@
       font-family:Arial, Helvetica, sans-serif;
     }
     body{
-      background-color: lightgoldenrodyellow;
+      background-color: rgb(231, 231, 178);
     }
     h1{
       color: green;
@@ -19,7 +19,7 @@
     }
     div#escopo{
       width: 600px;
-      background-color: aquamarine;
+      background-color: lightgreen;
       margin: auto;
       padding: 20px;
     }
